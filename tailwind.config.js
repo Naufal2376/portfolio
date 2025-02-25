@@ -15,6 +15,7 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            scrollBehavior: ['responsive', 'motion-safe', 'motion-reduce'],
         },
     },
 
