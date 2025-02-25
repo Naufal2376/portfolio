@@ -11,4 +11,9 @@ export default defineConfig({
         }),
         react(),
     ],
+    build: {
+        outDir: 'public/build',
+        assetsDir: 'assets',
+        manifest: true,
+    },
 });

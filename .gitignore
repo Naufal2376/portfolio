@@ -1,24 +1,56 @@
-/.phpunit.cache
-/bootstrap/ssr
-/node_modules
-/public/build
-/public/hot
+# Laravel specific
+/vendor
 /public/storage
 /storage/*.key
 /storage/pail
-/vendor
+/bootstrap/cache
+.phpunit.result.cache
+.phpunit.cache
+Homestead.json
+Homestead.yaml
+
+# Environment
 .env
 .env.backup
 .env.production
-.phpactor.json
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-auth.json
-npm-debug.log
-yarn-error.log
-/.fleet
+
+# Node.js specific (React frontend)
+node_modules
+npm-debug.log*
+yarn-error.log*
+
+# Build outputs
+/public/build
+/public/hot
+
+# Editor and IDE settings
 /.idea
-/.nova
 /.vscode
+/.nova
+/.fleet
 /.zed
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+auth.json
+.phpactor.json
+composer.lock
+
+# Additional Laravel-specific
+/storage/logs/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/config/*.local.php
+/public/mix-manifest.json
+/public/js/app.js
+/public/css/app.css
+
+# SSR output (optional if using Laravel + React SSR)
+/bootstrap/ssr
+
+.vercel

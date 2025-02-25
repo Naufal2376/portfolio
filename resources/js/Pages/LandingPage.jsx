@@ -80,13 +80,22 @@ const LandingPage = ({ projects }) => {
                             <strong>NIM:</strong> 09031282429112
                         </p>
                         <p>
-                            <strong>Program Studi:</strong> Sistem Informasi
+                            <strong>Program Studi:</strong> Sistem Informasi 24
+                        </p>
+                        <p>
+                            <strong>Kelas:</strong> SI Reguler 2A
                         </p>
                         <p>
                             <strong>Fakultas:</strong> Ilmu Komputer
                         </p>
                         <p>
                             <strong>Universitas:</strong> Sriwijaya
+                        </p>
+                        <p>
+                            <strong>Alamat:</strong> Gang Lampung 2
+                        </p>
+                        <p>
+                            <strong>No HP:</strong> 083146867066
                         </p>
                     </div>
                     <p className="text-lg leading-relaxed text-gray-700">
